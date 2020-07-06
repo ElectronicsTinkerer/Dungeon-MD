@@ -9,7 +9,7 @@ The world is made up of Rooms in a 3d grid, like the way blocks are located in *
 Rooms are 10' x 10' x 10' chunks of the world.
 Each room is separated into 5 sections as follows:
 
-``
+```
 +--------------------+
 |       NORTH        |
 |--------------------|
@@ -19,5 +19,5 @@ Each room is separated into 5 sections as follows:
 |--------------------|
 |       SOUTH        |
 +--------------------+
-``
+```
 When the
