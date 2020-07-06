@@ -2,5 +2,8 @@ $ This is an example Dungeon-Markdown document
 $ All lines that start with a '$' are comments
 
 $ This indicates the coordinate that this particular 'room' is located
+$ The Z axis starts at 0 for sea-level; positive is above sea-level and negative is below.
+$ There is not practical limitation on the value of these numbers, aside from the hard limit
+$ defined by Java's INT_MAX_VALUE and INT_MIN_VALUE
 $ FORMAT: @ X.Y.Z
 @ 9.6.10
