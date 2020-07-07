@@ -35,5 +35,18 @@ Each object has a weight, size, temperature, and description.
 
 
 ---
+## File Structure
+The game's data is stored in a file structure as follows:
+```batch
+game-root
+├───creatures
+├───npcs
+├───objects                             ├───passages                                                                            └───rooms
+```
+
+The game-root can be any name, since the Parser will take it as an argument when it is run. The subfolders are less negotiable.
+Contained within each of the subfolders (e.g. 'creatures') is a `.dmd` file specifying that particular element's data for the game's initial state.
+
+---
 ## Game Parser
 The game Parser is a program that is capable of reading the various `.dmd` files in the game's structure, interpreting them, generating the game's textual output, taking and processing user input, etc. (i.e. everything needed to run the game).
