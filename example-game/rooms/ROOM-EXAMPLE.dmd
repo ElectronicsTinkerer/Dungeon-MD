@@ -1,5 +1,6 @@
 $ This is an example Dungeon-Markdown document
 $ All lines that start with a '$' are comments
+$ It is preferable to keep all lines to fewer than 120 characters in length.
 $ Also, this file should be named '9.6.10.GROUND_HUT.dmd' to conform with the file
 $ naming standard.
 
@@ -11,3 +12,14 @@ $ Also, this is an optional field since it is specified in the filename. In the 
 $ differs, the filename takes precedence, but a warning should be sent to the program's event log.
 $ FORMAT: @ X.Y.Z
 @ 9.6.10
+
+$ Next is the name of the 'biome' that the Room is located within.
+$ This is useful for keeping track of various spells, objects, creatures, or other elements
+$ of the game. There is no requirement for this to be implemented or used, but is recommended.
+# Woodlands
+
+
+$ This indicates the Room's 'title'.
+$ Once again, this is useful for keeping track of elements such as a story line, but is
+$ otherwise not required for implementation. (But still recommended)
+## Stone Ruins Entrance
