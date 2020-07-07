@@ -1,0 +1,13 @@
+$ This is an example Dungeon-Markdown document
+$ All lines that start with a '$' are comments
+$ Also, this file should be named '9.6.10.GROUND_HUT.dmd' to conform with the file
+$ naming standard.
+
+$ This indicates the coordinate that this particular 'room' is located
+$ The Z axis starts at 0 for sea-level; positive is above sea-level and negative is below.
+$ There is not practical limitation on the value of these numbers, aside from the hard limit
+$ defined by Java's INT_MAX_VALUE and INT_MIN_VALUE
+$ Also, this is an optional field since it is specified in the filename. In the event that this
+$ differs, the filename takes precedence, but a warning should be sent to the program's event log.
+$ FORMAT: @ X.Y.Z
+@ 9.6.10
