@@ -22,9 +22,11 @@ Each room is separated into 5 Sections as follows:
 +--------------------+
 ```
 
-Each of the side Sections of the Room are recommended to be about 2-3' wide (useful for drawing Rooms) and are used for placement of Objects and creatures/NPCs.
+Each of the side Sections of the Room are recommended to be about 2-3' wide (useful for drawing Rooms) and are used for placement of Objects, Passages, and creatures/NPCs.
 
 Every Room is stored in its own unique file. The files should have their position in the world in the filename using the format: `X.Y.Z.ANYTEXT.dmd` where 'X', 'Y', and 'Z' are the coordinates of the Room in the world and 'ANYTEXT' is any text that the creator of the Room may choose. It is recommended that 'ANYTEXT' is descriptive of the Room, i.e. the title of the Room.
 
+---
 ## Objects
-Objects are things that can be in Rooms. (E.g. tables, apples, )
+Objects are things that can be in Rooms. (E.g. tables, apples, lanterns, etc.)
+Each object has a weight, size, description, 
