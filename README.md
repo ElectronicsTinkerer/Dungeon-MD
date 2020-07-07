@@ -29,4 +29,4 @@ Every Room is stored in its own unique file. The files should have their positio
 ---
 ## Objects
 Objects are things that can be in Rooms. (E.g. tables, apples, lanterns, etc.)
-Each object has a weight, size, description, 
+Each object has a weight, size, temperature, and description.
