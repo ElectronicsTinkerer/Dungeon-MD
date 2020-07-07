@@ -1,9 +1,11 @@
 # Dungeon-MD
 A Dungeon-Markdown syntax system for text-adventure games
 
+---
 ## World
 The world is made up of Rooms in a 3d grid, like the way blocks are located in *Minecraft*.
 The grid is defined as being made up of Rooms.
+
 ---
 ## Rooms
 Each room is defined in a separate file.
