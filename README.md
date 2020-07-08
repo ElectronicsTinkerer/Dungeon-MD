@@ -1,5 +1,5 @@
 # Dungeon-MD
-A Dungeon-Markdown syntax system for text-adventure games
+A Dungeon-Markdown syntax system for text-adventure games (***Currently Work-In-Progress***)
 
 ---
 ## Game Elements
