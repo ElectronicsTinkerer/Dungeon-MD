@@ -1,0 +1,54 @@
+$ This is an example Dungeon-Markdown document
+$ Passages: they're pretty useful for getting around.
+$ This is how to make them.
+
+$ Similar to how coordinates work for rooms, the passages put their coordinates into the filename.
+$ The coordinates can be repeated in the passage file as follows, but the file name will take
+$ precedent over the in-file declarations. (This field is optional)
+@ 9.6.10.e 0.20.10.w
+
+$ Next is the name of the 'biome' that the passage is located within. It does not need to be
+$ the same as the biomes of the end coordinates, but would ideally be related.
+$ This is useful for keeping track of various spells, objects, creatures, or other elements
+$ of the game. There is no requirement for this to be implemented or used, but is recommended.
+# Woodlands
+
+$ Also like rooms, the passages can have a title (optional, but recommended):
+## A Dank Example Passage
+
+$ The passages also can have a description (optional, but recommended):
+### {
+    A small, damp passage. Very dark, with an odor hinting of cider and decaying fruit.
+}
+
+$ Size is also important, as you probably would not be able to fit a full-grown dragon
+$ through a passage only a meter tall. You can define it here:
+/passage {
+    size: small
+}
+
+$ Objects, npcs, and creatures can be put into passages (thus allowing for the restriction of
+$ non-branching passages to be lifted, through the use of passable objects).
+$ Objects can be added as follows (optional):
+/objects {
+    - stone_small
+    - apple {
+        rotten: true
+    }
+}
+
+$ Here are the npcs (optional):
+/npcs {
+    - Gnome_the_Gnome_Gnome
+}
+
+$ And here are the creatures (optional):
+/creatures {
+    - grey_ooze {
+        psychic: false
+        size: medium
+    }
+    - shroom_spore {
+        size: small
+    }
+}
